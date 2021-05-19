@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title> NIT ASSIGNMENT </title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../Fonts/css/all.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+        #imgg:hover{
+            width: 320px;
+            height: 200px;
+        }
+        body:h2{
+            text-decoration-color: blue;
+        }
+
+
+    </style>
+</header>
+<body class="container-fluid">
+    
+    <h2 class="p-4 text-dark text-center" style="background-color:rgb(10, 12, 128);">  <p style="color:rgb(247, 246, 250);">NARESH INSTITUTE OF TECHNOLOGY</p></h2>
+
+    <nav class="navbar bg-dark   navbar-expand-lg  p-0 rounded">
+        <div class="container-fluid">
+            <button class="navbar-toggler p-0 m-sm-0" data-bs-target="#menuitems">
+                <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
+
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav " id="menuitems">
+                    <li class="nav-item m-lg-2">
+                        <a href="home.html" class="nav-link active"><span class="fa fa-home"></span> Home</a>
+                    </li>
+                    <li class="nav-item m-lg-2">
+                        <a href="about.html" class="nav-link"><span class="fab fa-atlassian"></span> About</a>
+                    </li>
+                    <li class="nav-item m-lg-2">
+                        <a href="blog.html" class="nav-link"><span class="fa fa-blog"></span> Blogs</a>
+                    </li>
+                    <li class="nav-item m-lg-2">
+                        <a href="services.html" class="nav-link"><span class="fas fa-business-time"></span> Services</a>
+                    </li>
+                    <li class="nav-item m-lg-2">
+                        <a href="contact.html" class="nav-link"><span class="fas fa-address-card"></span> Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                Sign In
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Sign In</a></li>
+                <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                <li><a class="dropdown-item" href="#">Change Password</a></li>
+                </ul>
+            </div>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- <nav class="bg-light navbar d-flex justify-content-between p-2">
+        <div class="text-dark d-flex ">
+            <div class="m-2 "><a target="_self" href="#website1st.html"class="text-dark "><i class="fas fa-home "></i> Home</a></div>
+            <div class="m-2"><a href="about.html"target="_self" class="text-dark"><i class="fas fa-question-circle"></i> About</a></div>
+            <div class="m-2"><a href="#services"target="_self" class="text-dark"><i class="fab fa-servicestack"></i> Service</a></div>
+            <div class="m-2"><a href="contact.html"target="_self"class="text-dark"><i class="fas fa-address-book"></i> Contact us</a></div>
+
+        </div> 
+    </nav> 
+        <-->
+        <div class="dropdown  ">
+            <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-sign-in-alt"></i> Sign in</button>
+         <ul class="dropdown-menu ">
+             <li>
+                <a class="dropdown-item active"href="signin.html"target="_self"><i class="fas fa-sign-in-alt"></i> Sign in</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="signup.html"><i class="fas fa-user-plus"></i> Sign up</a>
+            </li>
+            <li>
+                <a class="dropdown-item" data-bs-toggle="modal"href="#register"><i class="fas fa-unlock-alt"></i> Change Password</a>
+            </li>
+         </ul>
+        </div>
+    </nav>    
+    
+ <div id="topbanner" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+            <img src="../../assets/images/BT-BK.jpg" height="500px"class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+            <img src="../../assets/images/BT-it1.jpg"height="500px" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000" >
+            <img src="../../assets/images/BT-2.jpg"height="500px" class="d-block  w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000" >
+            <img src="../../assets/images/BT-5.jpg"height="500px" class="d-block  w-100">
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#topbanner" data-bs-slide="prev" >
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#topbanner" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+    <div class="carousel-indicators">
+        <button class="active" data-bs-target="#topbanner" data-bs-slide-to="0"></button>
+        <button data-bs-target="#topbanner" data-bs-slide-to="1"></button>
+        <button data-bs-target="#topbanner" data-bs-slide-to="2"></button>
+        <button data-bs-target="#topbanner" data-bs-slide-to="3"></button>
+    </div>
+</div>
+<div class="text-center m-3">
+    <button class="bg-primary text-white p-3 ">Show me what's in this package</button>
+     </div> 
+     <div class="text-center m-3">
+        <button class="bg-secondary text-white p-3 ">What is the package</button>
+         </div> 
+      <div class="text-justify">
+            <pre class="text-center">
+            * A package is a small container in which a quantity of something is sold. Packages are either small
+             boxes made of thin cardboard, or bags or envelopes made of paper or plastic. ... When a product is
+             packaged, it is put into containers to be sold.
+            </pre>
+      </div> 
+      <hr id="hr1">
+      <div class="d-flex justify-content-between">
+          <div class="w-75 m-2">
+              <table class="table table-hover ">
+              <thead class="bg-secondary">
+                  <tr class="text-center">
+                  <th>Department</th>
+                  <th>Included</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="text-center">
+                  <td>M.Tech</td>
+                  <td>	&#10003;</td>
+                  </tr>
+                  <tr class="text-center">
+                    <td>B.Tech</td>
+                    <td>	&#10003;</td>
+                    </tr>
+                    <tr class="text-center">
+                        <td>MCA</td>
+                        <td>	&#10003;</td>
+                        </tr>
+                    </tbody>
+                </table>
+          </div>
+          <div class="w-25 m-2">
+              <img id="imgg" src="../../assets/images/placement-pkg.png "height="165px"width="320px" >
+          </div>
+      </div>
+      <div class="bg-success">
+        <div>
+            <h2 class="bg-success text-center p-4 mt-5">What is the job</h2>
+        </div>
+        <div class="d-flex bg-secondary">
+            <div class="p-1 m-2">
+                  <h2><i class="fas fa-search"></i><br></h2>
+                  <h5>Types of jobs</h5>
+                  <ul>
+                     <li>Volcanologist..</li>
+                     <li>Quantum physicist.</li>
+                     <li>Oceanographer.</li>
+                     <li>Biomedical engineer..</li>
+                </ul>
+            </div>
+            <div class="p-1 m-2">
+                  <h2><i class="far fa-file-word"></i><br></h2>
+                  <h5>Define job profile</h5>
+                <br>Job profile developed by the
+                    personnel<br> department of a
+                    business<br> might include such
+                    things<br> as job responsibilities,
+                    required qualifications,<br>
+                    advancement prospects.<br>
+               
+                  
+            </div>
+            <div class="p-1 m-2">
+                  <h2><i class="fab fa-wordpress-simple"></i><br></h2>
+                  <h5>Job profile summary</h5><br>
+                  Profile summary is a summary<br>
+                  of your education, skills,<br>
+                  career experiences, and<br>
+                  goals.
+              
+            </div>
+            <div class="p-1 m-2">
+                  <h2><i class="fas fa-laptop-code"></i><br></h2>
+                  <h5>The IT skills</h5><br>
+                  Coding.<br>
+                  Communication.<br>
+                  Networks.<br>
+                  Time Management.<br>
+                  More Information Technology Skill
+            </div>
+            <div class="p-1 m-2">
+                  <h2><i class="fas fa-user-graduate"></i><br></h2>
+                  <h5>Freshers key skills</h5><br>
+                  Communication.<br>
+                  Ability to Work Under Pressure.<br>
+                  Decision Making.<br>
+                  Time Management.<br>
+                  Self-motivation.<br>
+                  Conflict Resolution.<br>
+                  personal skills?<br>
+                  Leadership.<br>
+                  Adaptability.v
+            </div>
+            <div class="p-1 m-2">
+                  <h2><i class="fas fa-tasks"></i><br></h2>
+                  <h5>Personal skills</h5><br>
+                  A skill is the ability to do<br>
+                  something well, a certain <br>
+                  competence or proficiency.<br>
+                  Skills are typically acquired or<br>
+                  developed through direct <br>
+                  experiences and training, and<br>
+                  they can require sustained <br>
+                  effort.
+            </div>
+        </div>
+        <div class="d-flex m-5">
+            <div class="w-75" >
+                <h2><img width="50" height="50" src="../../assets/images/BT-CS.jpg">Why do you want this job?</h2>
+                <p>The hiring manager wants to: Learn about your career goals and how this position fits into your plan. Make sure that you are sincerely interested in the job and will be motivated to perform if hired. Find out what you know about the company, industry, position (and if you took the time to research).</p>
+            </div>
+            <div class="w-25 m-4"><img width="300" height="150" src="../../assets/images/BT-2.jpg"></div>
+        </div>
+        <hr id="hr2">
+        <div class="d-flex m-3 bg-secondary" >
+            <div class="w-25 m-4"><img width="300"height="150" src="../../assets/images/cv-exp.png"></div>
+            <div class="w-75">
+              <h2><img width="50" height="50"  src="../../assets/images/BT-cv.jpeg">What is a CV example?</h2>
+              <p>A resume is a brief summary. ... If you were writing your resume you would include only the work information that relates specifically to the job you're applying for, but for a Curriculum Vitae, you would also include all your teaching experience, lab and field work.</p>
+            </div>
+        </div>
+        <hr id="hr3">
+        <div class="d-flex m-3">
+            <div class="d-75">
+                <h2><img width="50" height="50" src="../../assets/images/BT-RES.jpg">Do you need a resume for your first job?</h2>
+                <p>When writing your first resume with no work experience, it's appropriate to include casual jobs like babysitting, pet sitting, lawn mowing, and shoveling snow. All experience counts and the way you present yourself, your skills, and your assets to a hiring manager begins with a strong resume.</p>
+            </div>
+            <div class="w-25 m-4"><img width="300" height="150" src="../../assets/images/BT-3.jpg"></div>
+        </div>
+        <hr id="hr4">
+        <div class="d-flex m-3 bg-secondary">
+            <div class="w-25 m-4"><img width="300" height="150" src="../../assets/images/BT-5.jpg"> </div>
+            <div class="w-75">
+                <h2><img width="50" height="50"  src="../../assets/images/BT-3.jpg"> Why do you think you can do well in this job?</h2>
+                <p>I believe I will do well in this job because I have the relevant skills and it is my field of interest. ... I have a confident that I can do well in the job because of self confidence, positive attitude. Previous success also brings self confidence for the future success.</p>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center m-5">
+            <button class="btn bg-primary p-3 m-2 text-white">Request call back</button>
+            <button class="btn bg-dark p-3 m-2 text-white">FAQ'S</button>
+        </div>
+        <div class="bg-secondary">
+            <div class="m-3 p-3"><h2 class="bg-secondary text-center ">Student Department Details</h2></div>
+            <div class="d-flex bg-secondary">
+                <div class="p-5 m-3">
+                    <div><h2> <i class="fas fa-rupee-sign"></i> </h2></div>
+                    <div>Average Salary Offered</div>
+                    <div><h3>INR 10Lac per annum</h3></div>
+                    <div>per annum</div>
+                </div>
+                <div class="p-5 m-3">
+                    <div><h2><i class="fas fa-hourglass-start"></i></h2></div>
+                    <div>Duration</div>
+                    <div><h3>2</h3></div>
+                    <div>years</div>
+                </div>
+                <div class="p-5 m-3">
+                    <div><h2> <i class="fas fa-comments-dollar"></i></h2></div>
+                    <div>Average Fees Incurred</div>
+                    <div><h3>INR 30,000-3Lac</h3></div>
+                    <div>per annum</div>
+                </div>
+                <div class="p-5 m-3">
+                    <div><h2><i class="fas fa-graduation-cap"></i></h2></div>
+                    <div>Indian Institute of Technology, [IIT] Bombay</div>
+                    <div><h3>50,417</h3></div>
+                    <div>Bombay</div>
+                </div>
+            </div>
+            <div class="m-3 p-3"><h5 class="bg-secondary text-center ">*job: A group of homogeneous tasks related by similarity of functions..* </h5></div>
+        </div>
+        <div class="modal-content" id="services">
+        <div>
+            <h2 class="m-3 p-3 text-center">SERVICES</h2>
+        </div>
+        <div class="card-deck d-flex justify-content-between">
+            <div class="card w-25 m-3">
+                <div class="card-header"><img width="230"height="150" src="../../assets/images/BT-it1.jpg"></div>
+                <div class="card-body">
+                    WEB DESIGN !!
+                </div>
+                <div class="card-footer">
+                    Online ordering system helps to maintain a Better Business Relationship with your customers, which is a key factor to run any successful business.
+                </div>
+            </div>
+        
+            <div class="card w-25 m-3">
+                <div class="card-header"><img width="230"height="150" src="../../assets/images/BT-cv.jpeg"></div>
+                <div class="card-body">
+                    IT SERVICES !!
+                </div>
+                <div class="card-footer">
+                    We are ideally located in Larbert meaning we can offer IT support to businesses throughout Scotland. We take the hassle and worry out of your IT system by providing preventative and proactive IT support.
+                </div>
+            </div>
+            <div class="card w-25 m-3">
+                <div class="card-header"><img width="230"height="150" src="../../assets/images/BT-CS.jpg"></div>
+                <div class="card-body">
+                    WEB MARKETING !!
+                </div>
+                <div class="card-footer">
+                    We are passionate about digital content creation, strategy and delivery. We deliver results by designing marketing strategies which improve our clients brand visibility.
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+        <div class="bg-dark">
+            <div class="mt-5"><h3 class="text-center p-4 text-white bg-dark">Naresh Institute of Technologies</h3></div>
+            <div class="d-flex bg-dark text-white justify-content-between">
+                <div class="p-5">
+                    <li> <a><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li> <a><i class="far fa-envelope"></i> Google</a></li>
+                    <li> <a><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li> <a><i class="fab fa-youtube"></i> Youtube</a></li>
+                </div>
+                <div class="p-5">
+                    <li><span class="fas fa-home"> Home </span></li>
+                    <li><span class="fab fa-atlassian"></span> About</li>
+                    <li><span class="fas fa-business-time"></span> Servicees</li>
+                    <li><span class="fas fa-address-card"> Contact</span></li>
+                </div>
+                <div class="p-5">
+                    <li><span class="fas fa-edit"> Name : Naresh Istitute of Technology</span></li>
+                    <li><span class="fas fa-mail-bulk"> Email : info@nareshit.com</span></li>
+                    <li><span class="fas fa-id-badge"> Contact : +91-xxxxxxxxxx</span></li>
+                    <li><span class="far fa-address-card"> Address : Sr nagar, Hyderabad, Telangana, India</span></li>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="register">
+            <div class="modal-dialog ">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary  text-white">
+                        <h2 class="p-3 text-center">Registration Form</h2>
+                        <button data-bs-dismiss="modal" class="btn btn-close"></button>
+                    </div>
+                    <div class="modal-body bg-light text-dark p-5">
+                        <div class="input-group mb-3">
+                            <button class="btn btn-danger"><i class="fas fa-star"></i></button>
+                            <input type="password"placeholder="Current Password" class="form-label">
+                        </div>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-danger"><i class="fas fa-star"></i></button>
+                            <input type="password"placeholder="New Password" class="form-label">
+                        </div>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-danger"><i class="fas fa-star"></i></button>
+                            <input type="password"placeholder="Confirm Password" class="form-label">
+                        </div>
+                    </div>
+                    <div class="modal-footer  bg-danger">
+                        <div><button class="text-white bg-dark p-2">CONFIRM</button></div>
+                        <div><button data-bs-dismiss="modal"class="text-white bg-danger p-2">CANCEL</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+
+  
+    
+ <script src="../../node_modules/jquery/dist/jquery.js"></script>
+ <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+<footer>
+
+</footer>
+
+
+
+
+
+</html>
+boot.html
